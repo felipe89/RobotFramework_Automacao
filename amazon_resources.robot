@@ -5,13 +5,14 @@ Library    String
 
 
 *** Variables ***
+${BROWSER}        chrome
 ${URL}            https://www.amazon.com.br
 ${MENU_LIVRO}     //a[@href='/Livros/b/?ie=UTF8&node=6740748011&ref_=nav_cs_books'][contains(.,'Livros')]
 ${HEADER_LIVRO}    //h1[contains(.,'Loja de Livros')]
 
 *** Keywords ***
 Abrir o navegador     
-    Open Browser   browser=chrome
+    Open Browser   browser=${BROWSER}
     Maximize Browser Window
 
 Fechar o navegador
