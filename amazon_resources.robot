@@ -44,6 +44,7 @@ Clicar no botão de pesquisa
 
 Verificar o resultado da pesquisa listando o produto "${PRODOTO_PESQUISADO}"
     Wait Until Element Is Visible        locator=//img[contains(@alt,'${PRODOTO_PESQUISADO}')]
+    Mouse Down     locator=//img[contains(@alt,'${PRODOTO_PESQUISADO}')]           
                                                     
     
     

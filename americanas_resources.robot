@@ -37,4 +37,8 @@ No campo de busca informar o produto "${PRODUTO}"
 
 Validar o resultado da busca
     Wait Until Element Is Visible     locator=//div[contains(@class,'grid__StyledGrid-sc-1man2hx-0 iFeuoP src__GridItem-sc-122lblh-0 gGJHBq')]
-    
+
+Clicar em um do produtos da busca 
+    Wait Until Element Is Visible     locator=//img[@alt='Console Playstation 5 - PS5']
+    Mouse Down        locator=//img[@alt='Console Playstation 5 - PS5']
+    Click Element    text=Console Playstation 5 - PS5

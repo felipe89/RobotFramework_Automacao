@@ -25,7 +25,7 @@ Caso de Testes 03 - Adicionar produto no carinho de compras
     [Tags]     carinho
     Acessar a home page do site da lojas "Americanas"
     No campo de busca informar o produto "Playstation 5"
-    # Clicar em um do produtos da busca 
+    Clicar em um do produtos da busca 
     # Validar o acesso na pagina do produto
     # Informar o CEP de entrega do produto 
     # Clicar no botão "Comprar"
